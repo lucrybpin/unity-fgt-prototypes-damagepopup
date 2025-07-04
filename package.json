@@ -1,0 +1,18 @@
+{
+  "name": "fgt.prototypes.damagepopup",
+  "version": "1.0.0",
+  "displayName": "FGT - Prototypes - DamagePopup",
+  "description": "Fast prototyping tool to add a simple damage popups (floating text) to your game prototype.",
+  "licensesUrl": "https://opensource.org/licenses/MIT",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.9"
+ },
+ "keywords": [
+    "FGT",
+    "Prototypes",
+    "Damage",
+    "Popup",
+    "System"
+  ]
+}
+
