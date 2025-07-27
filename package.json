@@ -7,6 +7,13 @@
   "dependencies": {
     "com.unity.textmeshpro": "3.0.9"
  },
+ "samples": [
+  {
+    "displayName": "Mushroom Example",
+    "description": "Example of a simple damage popup using a moving Lizzard",
+    "path": "Samples~/Example Lizzard"
+  }
+ ],
  "keywords": [
     "FGT",
     "Prototypes",
