@@ -81,7 +81,7 @@ namespace FGT.Prototypes.DamagePopup
             _rectTransform.DOLocalMove(_rectTransform.localPosition + randomOffset, 1.5f)
         .SetEase(Ease.OutCubic);
             // Fade out
-            // _text.DOFade(0, 1.5f).SetEase(Ease.InQuad);
+            _text.DOFade(0, 1.5f).SetEase(Ease.InQuad);
 
             // Slight rotation
             _rectTransform.DOLocalRotate(new Vector3(0, Random.Range(-10f, 10f), Random.Range(-25f, 25f)), 1.5f);
@@ -111,7 +111,7 @@ namespace FGT.Prototypes.DamagePopup
             _rectTransform.DOLocalMove(destination, 1.5f).SetEase(Ease.OutCubic);
 
             // Fade out
-            // _text.DOFade(0, 1.5f).SetEase(Ease.InQuad);
+            _text.DOFade(0, 1.5f).SetEase(Ease.InQuad);
 
             // Roate Z axis
             float randomZ = Random.Range(-15f, 15f);
